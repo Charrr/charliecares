@@ -1,5 +1,5 @@
 # CharlieCares
-Charlie's personal webpage. Check it out [here](https://github.com/Charrr/charliecares).
+Charlie's personal webpage. Check it out [here](https://charrr.github.io/charliecares/).
 
 *. . . Constantly updating . . .*
 
