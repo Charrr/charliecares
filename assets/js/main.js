@@ -114,7 +114,7 @@
 	}
 
 	// Scrollex.
-	breakpoints.on('>small', function () {
+	breakpoints.on('>=xsmall', function () {
 		$header.scrollex({
 			terminate: function () {
 
@@ -133,12 +133,6 @@
 
 			}
 		});
-	});
-
-	breakpoints.on('<=small', function () {
-
-		$header.unscrollex();
-
 	});
 
 	// Main sections.
