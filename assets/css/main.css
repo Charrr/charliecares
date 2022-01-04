@@ -167,6 +167,7 @@ p {
 
 	p {
 		margin: 0 0 2em 0;
+		line-height: 2em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3163,10 +3164,14 @@ p {
 				font-size: 1.35em;
 			}
 
+			p {
+				font-size: 0.9em;
+			}
+
 		/* Main */
 
 			.main .container {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 3em 2em 1em 2em;
 			}
 
 				.main .container .image.primary:first-child {
@@ -3206,7 +3211,7 @@ p {
 		/* Footer */
 
 			#footer .container {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 3em 2em 1em 2em ;
 			}
 
 	}
@@ -3294,7 +3299,7 @@ p {
 		/* Main */
 
 			.main .container {
-				padding: 3em 1em 1em 1em ;
+				padding: 3em 1.5em 1em 1.5em;
 			}
 
 				.main .container .image.primary:first-child {
@@ -3304,7 +3309,7 @@ p {
 		/* Footer */
 
 			#footer .container {
-				padding: 3em 1em 1em 1em ;
+				padding: 3em 1.5em 1em 1.5em;
 			}
 
 			#footer footer .copyright {
