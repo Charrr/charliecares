@@ -2954,6 +2954,11 @@ p {
 				background-color: rgba(144, 144, 144, 0.15);
 			}
 
+			.main .goto-back .goto-next {
+				display: block;
+				transform: rotate(90deg);
+			}
+
 /* Header */
 
 	#header {
@@ -3213,6 +3218,13 @@ p {
 			#footer .container {
 				padding: 3em 2em 1em 2em ;
 			}
+
+		/* Go Back Button On Thank You Page  */
+
+		.main .goto-back .goto-next {
+			position: relative;
+			bottom: 10px;
+		}
 
 	}
 
