@@ -4,7 +4,8 @@ Charlie's personal webpage. Check it out [here](https://charrr.github.io/charlie
 *. . . Constantly updating . . .*
 
 ## Credits
-<br>Built on [this template](https://html5up.net/highlights) from [HTML5UP](https://html5up.net/). Wonderful site ❣️
+- Built on [this template](https://html5up.net/highlights) from [HTML5UP](https://html5up.net/) ❣️
+- Web form with the help of [FormSubmit](https://formsubmit.co/) 💌
 
 ### Original Readme.txt
 
