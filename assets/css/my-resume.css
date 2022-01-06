@@ -1,3 +1,5 @@
+/* Charlie's Chronicle */
+
 .my-code-block {
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.85em;
@@ -26,7 +28,9 @@
     color: darkgoldenrod;
 }
 
-.img-container img {
+/* Charlie's Catalogue */
+
+#catalogue img {
     width: 6em;
     height: 6em;
     object-fit: cover;
@@ -72,10 +76,55 @@
     margin-bottom: 0;
 }
 
+/* Charlie's Crafts */
+
+#crafts h3 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-weight: normal;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+#crafts p {
+    text-align: center;
+    font-size: 0.85em;
+    letter-spacing: 0.08em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+}
+
+#crafts .craft {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#crafts .column-wrapper {
+    display: flex;
+}
+
+#crafts .column {
+    flex: 50%;
+}
 
 
+#crafts img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 25vh;
+    min-height: 75%;
+    max-height: 12em;
+    object-fit: cover;
+    border-radius: 3%;
+}
 
-
+#alexa-skills img {
+    background-color: #eaeaea;
+    object-fit: contain;
+    padding: 10px;
+}
 
 
 /* @mixin tablet-and-up {
