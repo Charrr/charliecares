@@ -1,3 +1,11 @@
+/* GLOBAL */
+
+a {
+    border-bottom: none;
+}
+
+/* Charlie's Chronicle */
+
 .my-code-block {
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.85em;
@@ -26,7 +34,9 @@
     color: darkgoldenrod;
 }
 
-.img-container img {
+/* Charlie's Catalogue */
+
+#catalogue img {
     width: 6em;
     height: 6em;
     object-fit: cover;
@@ -72,10 +82,79 @@
     margin-bottom: 0;
 }
 
+/* Charlie's Crafts */
 
+#crafts h3 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-weight: normal;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
 
+.column h4 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
+#crafts p {
+    text-align: center;
+    font-size: 0.85em;
+    letter-spacing: 0.08em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+}
 
+#crafts .craft {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#crafts .column-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    #crafts .column-wrapper {
+        flex-wrap: wrap;
+    }
+
+    #crafts .column {
+        width: 200px;
+    }
+}
+
+#crafts .column {
+    flex: 50%;
+}
+
+#crafts .column:hover img {
+    transform: scale(1.1);
+    opacity: 50%;
+}
+
+#crafts img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 25vh;
+    min-height: 75%;
+    max-height: 12em;
+    object-fit: cover;
+    border-radius: 3%;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+#alexa-skills img {
+    background-color: #eaeaea;
+    object-fit: contain;
+    padding: 10px;
+}
 
 
 /* @mixin tablet-and-up {
