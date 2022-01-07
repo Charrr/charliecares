@@ -1,3 +1,9 @@
+/* GLOBAL */
+
+a {
+    border-bottom: none;
+}
+
 /* Charlie's Chronicle */
 
 .my-code-block {
@@ -86,6 +92,14 @@
     margin-bottom: 3em;
 }
 
+.column h4 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 #crafts p {
     text-align: center;
     font-size: 0.85em;
@@ -101,6 +115,17 @@
 
 #crafts .column-wrapper {
     display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    #crafts .column-wrapper {
+        flex-wrap: wrap;
+    }
+
+    #crafts .column {
+        width: 200px;
+    }
 }
 
 #crafts .column {
@@ -109,6 +134,7 @@
 
 #crafts .column:hover img {
     transform: scale(1.1);
+    opacity: 50%;
 }
 
 #crafts img {
@@ -121,7 +147,7 @@
     max-height: 12em;
     object-fit: cover;
     border-radius: 3%;
-    transition: transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 #alexa-skills img {
