@@ -2122,6 +2122,8 @@ p {
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		resize: vertical;
+		min-height: 5em;
 	}
 
 		input[type="text"]:invalid,
