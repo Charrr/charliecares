@@ -6,6 +6,7 @@ Charlie's personal webpage. Check it out [here](https://charrr.github.io/charlie
 ## Credits
 - Built on [this template](https://html5up.net/highlights) from [HTML5UP](https://html5up.net/) ❣️
 - Web form with the help of [FormSubmit](https://formsubmit.co/) 💌
+- Current background image frmo [Unsplash.com](https://unsplash.com/photos/A06cEjIW_rA) 🖼
 
 ### Original Readme.txt
 
