@@ -36,6 +36,10 @@ a {
 
 /* Charlie's Catalogue */
 
+#catalogue .grid-right a:hover{
+    opacity: 60%;
+}
+
 #catalogue img {
     width: 6em;
     height: 6em;

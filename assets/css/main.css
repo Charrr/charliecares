@@ -1,5 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 
 /*
 	Highlights by HTML5 UP
@@ -80,13 +82,104 @@ p {
 	letter-spacing: 0.05em;
 }
 
-/* Specific */
+h2 .colored-c {
+	color: darkgoldenrod;
+	font-size: 120%;
+	font-weight: 100;
+	text-shadow: 0px 0px 2px #a17200;
+}
+
+/* MY NAME IS ZIQIAN */
+
+#very-intro-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 #name-intro-sub {
 	text-align: center;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Cardo', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: large;
 	padding: 1em;
+}
+
+.my-name-is-ziqian {
+	display: flex;
+}
+
+.name-intro-baseline {
+	margin-top: 27pt;
+}
+
+#name-intro {
+	margin-right: 11pt;
+	font-size: 18pt;
+	letter-spacing: 2pt;
+	text-transform: uppercase;
+	font-family: 'Cardo', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#name-period {
+	transform: translate(8pt, -3pt);
+	font-size: 18pt;
+}
+
+#name-ziqian-ipa {
+	padding-left: 8pt;
+	padding-bottom: 0.5pt;
+	font-size: 16pt;
+	font-family: 'Cardo', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#name-ziqian {
+	font-size: 30pt;
+	/* font-weight: 600; */
+	font-family: 'Hina Mincho', 'Cambria', 'Times';
+}
+
+@media (max-width: 660px) {
+	#name-intro {
+		margin-right: 11pt;
+		font-size: 15pt;
+	}
+
+	#name-ziqian-ipa {
+		padding-left: 7pt;
+		padding-bottom: 0;
+		font-size: 12pt;
+	}
+
+	#name-ziqian {
+		font-size: 25pt;
+	}
+}
+
+@media (max-width: 380px) {
+	.name-intro-baseline {
+		margin-top: 23pt;
+	}
+
+	#name-intro {
+		margin-right: 7pt;
+		font-size: 14pt;
+		letter-spacing: 0;
+	}
+
+	#name-ziqian-ipa {
+		padding-left: 2pt;
+		padding-bottom: 0;
+		font-size: 12pt;
+	}
+
+	#name-ziqian {
+		font-size: 20pt;
+	}
+
+	#name-period {
+		transform: translate(2pt, -1pt);
+		font-size: 13pt;
+	}
 }
 
 /* Basic */
