@@ -186,6 +186,7 @@ h2 .colored-c {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
