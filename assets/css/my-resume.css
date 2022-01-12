@@ -5,6 +5,19 @@ html {
 
 a {
     border-bottom: none;
+    color: #d9a86a;
+}
+
+#catalogue a:hover {
+    color: goldenrod !important;
+    border-bottom: dotted 1px !important;
+}
+
+h2 .colored-c {
+	color: #d9a86a;
+	font-size: 120%;
+	font-weight: 100;
+	text-shadow: 0px 0px 2px #d9a86a, 0px 0px 4px #d9a86a;
 }
 
 /* Charlie's Chronicle */
@@ -34,7 +47,7 @@ a {
 .time {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    color: darkgoldenrod;
+    color: #d9a86a;
 }
 
 /* Charlie's Catalogue */
@@ -67,7 +80,7 @@ a {
 
 .project-time {
     font-size: 0.8em;
-    color: darkgoldenrod;
+    color: #d19eb5;
     letter-spacing: 0.15em;
 }
 
