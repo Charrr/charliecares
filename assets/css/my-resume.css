@@ -1,4 +1,7 @@
 /* GLOBAL */
+html {
+    background-image: url("images/overlay.png"), url("../../images/bg-susan1db-mq.jpg");
+}
 
 a {
     border-bottom: none;
