@@ -48,6 +48,12 @@ a {
     margin-right: 1em;
 }
 
+#catalogue .project-info a {
+    font-style: oblique;
+    color: #bbbbbb;
+    border-bottom: dotted 1px;
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
