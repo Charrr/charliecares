@@ -149,6 +149,10 @@ a {
     opacity: 50%;
 }
 
+#crafts a:hover {
+    opacity: 60%;
+}
+
 #crafts img {
     display: block;
     margin-left: auto;
