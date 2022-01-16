@@ -102,6 +102,8 @@ a {
     font-weight: normal;
     margin-top: 4em;
     margin-bottom: 3em;
+    color: darkgoldenrod;
+    text-shadow: 1px 1px 2px #b7860b80;
 }
 
 .column h4 {
@@ -147,6 +149,10 @@ a {
 #crafts .column:hover img {
     transform: scale(1.1);
     opacity: 50%;
+}
+
+#crafts a:hover {
+    opacity: 60%;
 }
 
 #crafts img {

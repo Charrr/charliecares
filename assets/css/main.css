@@ -431,7 +431,7 @@ h2 .colored-c {
 	border-radius: 10px;
 }
 
-@media (max-width: 481px) {
+@media (max-width: 600px) {
 	.toggle-button {
 		display: flex;
 	}
