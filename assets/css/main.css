@@ -142,7 +142,8 @@ h2 .colored-c {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	box-shadow: #a8b0b3 0px 20px 25px
+	border: 3px solid white;
+	box-shadow: 0px 20px 25px #a8b0b3;
 }
 
 @media (max-width: 660px) {
