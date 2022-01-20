@@ -138,6 +138,13 @@ h2 .colored-c {
 	font-family: 'Hina Mincho', 'Cambria', 'Times';
 }
 
+#cq-saar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	box-shadow: #a8b0b3 0px 20px 25px
+}
+
 @media (max-width: 660px) {
 	#name-intro {
 		margin-right: 11pt;
