@@ -52,7 +52,7 @@
 
 				<div class="wrapper">
 					<ul class="sessions">
-						<li class="timeline">
+						<!-- <li class="timeline">
 							<div class="time">199X</div>
 							<div class="my-code-block">
 								<p>
@@ -71,13 +71,13 @@
 									<br>charlie.getEducation("<b>Senior High</b>");
 								</p>
 							</div>
-						</li>
+						</li> -->
 						<li class="timeline">
 							<div class="time">2014 - 2018</div>
 							<div class="my-code-block">
 								<p>
 									charlie.getBachelorDegree(
-									<br>&emsp;university = {"<b>BUPT</b>", "<b>QMUL</b>"},
+									<br>&emsp;university = {"<b>BUPT 🇨🇳</b>", "<b>QMUL 🇬🇧</b>"},
 									<br>&emsp;major = <b>"Telecommunications Engineering, B.Eng."</b>);
 								</p>
 								<p class="comments">
@@ -85,9 +85,14 @@
 									<br>// Beijing University of Posts and Telecommunications
 									<br>// & Queen Mary University of London.
 								</p>
-								<p>
+								<!-- <p>
 									charlie.acquireDegree("<b>Bachelor of Engineering</b>");
 									<br>charlie.acquireHonours("<b>First Class Honours</b>");
+								</p> -->
+								<p>
+									charlie.getExchangeProgram(
+									<br>&emsp;host = "<b><a href='https://www.gvlab.jp/index.htm' target='_blank'>GV Lab, Tokyo 🇯🇵</a></b>",
+									<br>&emsp;topics = "<b>Robotics, HRI, Affective Computing</b>");
 								</p>
 							</div>
 						</li>
@@ -96,18 +101,23 @@
 							<div class="my-code-block">
 								<p>
 									charlie.getMasterDegree(
-									<br>&emsp;university = "<b>Universität des Saarlandes</b>",
+									<br>&emsp;university = "<b>Saarland Univeristy 🇩🇪</b>",
 									<br>&emsp;major = "<b>Media Informatics, M.Sc.</b>");
 								</p>
 								<p>
 									charlie.startCoroutine(
-									<br>&emsp;position = "<b>Research Assistant (Hiwi)</b>",
-									<br>&emsp;employer = {"<b>DFKI GmbH</b>", "<b>MIA Group, UdS</b>"});
+									<br>&emsp;position = "<b>Research Assistant</b>",
+									<br>&emsp;employer = "<b><a href='https://www.dfki.de/web' target='_blank'>Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI)</a></b>");
 								</p>
 								<p>
 									charlie.startCoroutine(
-									<br>&emsp;position = "<b>Software Dev Intern</b>",
-									<br>&emsp;employer = "<b>Pxio GmbH</b>");
+									<br>&emsp;position = "<b>Research Assistant</b>",
+									<br>&emsp;employer = "<b><a href='https://www.mia.uni-saarland.de/index.shtml' target='_blank'>Mathematical Image Analysis Group (MIA), Saarland University</a></b>");
+								</p>
+								<p>
+									charlie.startCoroutine(
+									<br>&emsp;position = "<b>C#/C++ Developer</b>",
+									<br>&emsp;employer = "<b><a href='https://www.pxio.de' target='_blank'>Pxio GmbH</a></b>");
 								</p>
 							</div>
 						</li>
@@ -117,8 +127,23 @@
 								<p>
 									charlie.getJob(
 									<br>&emsp;position = "<b>Unity Developer</b>",
-									<br>&emsp;employer = "<b>LocLab Consulting GmbH</b>"),
-									<br>&emsp;location = "<b>Darmstadt, Germamy</b>");
+									<br>&emsp;employer = "<b><a href='https://loclab-consulting.com/' target='_blank'>LocLab Consulting GmbH</a></b>",
+									<br>&emsp;location = "<b>Darmstadt, Germany</b>");
+								</p>
+								<p class="comments">
+									// Built and shipped multiple projects using Unity — across <b>desktop</b>, <b>mobile</b>, <b>HTC Vive</b>, and <b>Meta Quest</b>.
+									<br>// Crafted a custom <b>XR SDK</b> to simplify dev work and boost iteration speed.
+								</p>
+								<p>
+									charlie.getPromotion(
+									<br>&emsp;position = "<b>Lead Unity Developer</b>",
+									<br>&emsp;employer = "<b><a href='https://loclab-consulting.com/' target='_blank'>LocLab Consulting GmbH, Hexagon AB</a></b>",
+									<br>&emsp;location = "<b>Darmstadt, Germany</b>");
+								</p>
+								<p class="comments">
+									// <b>Got promoted!</b> 🎉
+									<br>// Led and a team of 5 to build <b><a href="https://hxdr.com/loclab-cloud/", target="_blank">LocLab Cloud</a></b>, a large-scale <b>digital twin</b> platform.
+									<br>// Rolled out <b>DevOps workflows</b>, and brought <b>clean architecture</b> to the codebase.
 								</p>
 							</div>
 						</li>
@@ -238,7 +263,7 @@
 						</div>
 						<div class="grid-right">
 							<p class="project-title">Research Intern at
-								<a href="http://web.tuat.ac.jp/~gvlab/" target="_blank">GVLab</a>,
+								<a href="https://www.gvlab.jp/index.htm" target="_blank">GVLab</a>,
 								<a href="https://www.tuat.ac.jp/en/" target="_blank">TUAT</a>
 							</p>
 							<p class="project-time">03.2018 - 05.2018</p>
