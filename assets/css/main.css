@@ -98,7 +98,14 @@ h2 .colored-c {
 }
 
 #name-intro-sub {
-	text-align: center;
+	margin-top: 12pt;
+	font-size: 12pt;
+	letter-spacing: 1pt;
+	font-family: 'Cardo', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#motto {
+	margin-top: 36pt;
 	font-family: 'Cardo', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: large;
 	padding: 1em;
